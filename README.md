@@ -9,8 +9,14 @@
 
 ## 🧾 Thông tin đồ án
 - **Tên đề tài:** Thiết kế front-end cho website cửa hàng bán sách 
-- **Giảng viên hướng dẫn:** Thầy Phạm Minh Đương
+- **Giảng viên hướng dẫn:** Phạm Minh Đương
 - **Công nghệ sử dụng:** HTML, CSS, JavaScript, ReactJS, TailwindCSS
 - **Thời gian thực hiện:** Từ 03/11/2025 đến ngày 04/01/2026
+
+
+
+
+
+
 
 
