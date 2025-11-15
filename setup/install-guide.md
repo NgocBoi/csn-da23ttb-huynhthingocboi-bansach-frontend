@@ -38,3 +38,52 @@ v22.20.0
 PS C:\Users\pc> npm --version
 10.9.3
 ```
+# Cài Vite
+
+Mở terminal: Terminal -> new terminal hoặc `` Ctrl + ` ``
+
+`npm create vite@latest ./` cài trong thư mục hiện tại. Và chọn: react, javascript
+
+<img width="394" height="306" alt="image" src="https://github.com/user-attachments/assets/019ead83-49b0-4cec-b17b-2340277b2938" />
+
+```
+npm install
+npm run dev
+```
+bây giờ mình truy cập vào http://localhost:5173/
+
+<img width="394" height="310" alt="image" src="https://github.com/user-attachments/assets/8cdcb12c-86e0-492c-905f-9521eec1b318" />
+
+# Cài TailwindCSS
+
+> link: https://tailwindcss.com/docs/installation/using-vite
+
+tải thông qua npm: `npm install tailwindcss @tailwindcss/vite`
+
+Mở file `vite.config.js`
+```js
+import react from "@vitejs/plugin-react";
+import tailwindcss from '@tailwindcss/vite';
+export default defineConfig({
+  plugins: [
+    react(), tailwindcss()
+  ],
+})
+```
+Sử dụng bằng cách import vào file css `@import "tailwindcss";`
+- Kiểm tra
+```html
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+```
