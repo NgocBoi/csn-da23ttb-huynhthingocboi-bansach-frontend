@@ -1,8 +1,8 @@
 # Hướng dẫn cài đặt
 
 - [Setting up](#setting-up)
-  - [Visual Studio Code](#visual-studio-code)
-  - [Nodejs](#nodejs)
+- [Visual Studio Code](#visual-studio-code)
+- [Nodejs](#nodejs)
 
 # Setting up
 
@@ -17,7 +17,6 @@ Các extensions:
 - Prettier
 - ESLint
 - ES& React/Redux/GraphQL/React-Native snippets
-- Live Server
 - Auto Rename Tag
 - vscode-icons
 - Dracula Theme Official
